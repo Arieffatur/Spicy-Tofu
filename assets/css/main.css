@@ -30,6 +30,34 @@ body {
   color: var(--color-default);
 }
 
+.wa_btn {
+  position: fixed;
+  right: 30px;
+  bottom: 50px;
+  text-decoration: none;
+  color: #000;
+  background-color: rgb(35, 243, 36);
+  border-radius: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wa_btn i {
+  font-size: 60px;
+  background-color: rgb(35, 243, 36);
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 150px;
+  color: #fff;
+
+}
+
+
 a {
   color: var(--color-primary);
   text-decoration: none;
