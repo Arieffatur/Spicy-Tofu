@@ -1,12 +1,9 @@
+/**
 
-/*--------------------------------------------------------------
-# Set main reusable colors and fonts using CSS variables
-# Learn more about CSS variables at https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
---------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --font-default: "Helvetica", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-primary: "Montserrat", sans-serif;
+  --font-default: "helvetica", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-primary: "Copperplate", fantasy;
   --font-secondary: "Inter", sans-serif;
 }
 
@@ -29,34 +26,6 @@ body {
   font-family: var(--font-default);
   color: var(--color-default);
 }
-
-.wa_btn {
-  position: fixed;
-  right: 30px;
-  bottom: 50px;
-  text-decoration: none;
-  color: #000;
-  background-color: rgb(35, 243, 36);
-  border-radius: 13px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.wa_btn i {
-  font-size: 60px;
-  background-color: rgb(35, 243, 36);
-  border-radius: 50%;
-  height: 60px;
-  width: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  right: 150px;
-  color: #fff;
-
-}
-
 
 a {
   color: var(--color-primary);
@@ -587,7 +556,7 @@ section {
 # About Section
 --------------------------------------------------------------*/
 .about .about-img {
-  min-height: 500px;
+  min-height: 100px;
 }
 
 .about h3 {
@@ -640,6 +609,7 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
+  text-align: justify;
 }
 
 .about .play-btn {
@@ -804,7 +774,7 @@ section {
 # Stats Counter Section
 --------------------------------------------------------------*/
 .stats-counter {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/stats-bg.jpg") center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bgbaner.jpeg") center center;
   background-size: cover;
   padding: 100px 0;
 }
@@ -1192,7 +1162,7 @@ section {
 # Book A Table Section
 --------------------------------------------------------------*/
 .book-a-table .reservation-img {
-  min-height: 500px;
+  min-height: 620px;
   background-size: cover;
   background-position: center;
 }
