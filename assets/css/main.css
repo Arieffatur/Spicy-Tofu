@@ -1145,7 +1145,7 @@ section {
 # Book A Table Section
 --------------------------------------------------------------*/
 .book-a-table .reservation-img {
-  min-height: 620px;
+  min-height: 500px;
   background-size: cover;
   background-position: center;
 }
@@ -1457,7 +1457,7 @@ section {
 --------------------------------------------------------------*/
 .footer {
   font-size: 14px;
-  background-color: #1f1f24;
+  background-color: #ce1212;
   padding: 50px 0;
   color: rgba(255, 255, 255, 0.7);
 }
