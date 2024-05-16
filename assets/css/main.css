@@ -5,19 +5,34 @@
   --font-default: "helvetica", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-primary: "Copperplate", fantasy;
   --font-secondary: "Inter", sans-serif;
+  --font-tertiary: "Courier", font-family;
 }
+
+
+
+
 
 /* Colors */
 :root {
   --color-default: #212529;
   --color-primary: #ce1212;
-  --color-secondary: #37373f;
+  --color-secondary: #F6A108;
+  --color-tertiary: #ffffff;
+  --color-quaternary: #37373f;
 }
+
+
+
+
 
 /* Smooth scroll behavior */
 :root {
   scroll-behavior: smooth;
 }
+
+
+
+
 
 /*--------------------------------------------------------------
 # General
@@ -46,6 +61,10 @@ h6 {
   font-family: var(--font-secondary);
 }
 
+
+
+
+
 /*--------------------------------------------------------------
 # Sections & Section Header
 --------------------------------------------------------------*/
@@ -57,7 +76,7 @@ section {
 }
 
 .section-bg {
-  background-color: #eee;
+  background-color: #E23D28;
 }
 
 .section-header {
@@ -71,7 +90,7 @@ section {
   font-weight: 400;
   margin: 0;
   padding: 0;
-  color: #7f7f90;
+  color: #000000;
   text-transform: uppercase;
   font-family: var(--font-default);
 }
@@ -86,6 +105,10 @@ section {
 .section-header p span {
   color: var(--color-primary);
 }
+
+
+
+
 
 /*--------------------------------------------------------------
 # Breadcrumbs
@@ -146,6 +169,10 @@ section {
   }
 }
 
+
+
+
+
 /*--------------------------------------------------------------
 # Scroll top button
 --------------------------------------------------------------*/
@@ -178,6 +205,10 @@ section {
   visibility: visible;
   opacity: 1;
 }
+
+
+
+
 
 /*--------------------------------------------------------------
 # Preloader
@@ -224,6 +255,10 @@ section {
   }
 }
 
+
+
+
+
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
@@ -232,6 +267,10 @@ section {
     transition-delay: 0 !important;
   }
 }
+
+
+
+
 
 /*--------------------------------------------------------------
 # Header
@@ -288,6 +327,10 @@ section {
   color: #fff;
   background: rgba(206, 18, 18, 0.8);
 }
+
+
+
+
 
 /*--------------------------------------------------------------
 # Desktop Navigation
@@ -438,6 +481,10 @@ section {
   }
 }
 
+
+
+
+
 /*--------------------------------------------------------------
 # Mobile Navigation
 --------------------------------------------------------------*/
@@ -514,7 +561,7 @@ section {
   }
 
   .mobile-nav-show {
-    color: var(--color-secondary);
+    color: var(--color-default);
     font-size: 28px;
     cursor: pointer;
     line-height: 0;
@@ -524,7 +571,7 @@ section {
   }
 
   .mobile-nav-hide {
-    color: var(--color-secondary);
+    color: var(--color-default);
     font-size: 32px;
     cursor: pointer;
     line-height: 0;
@@ -551,6 +598,10 @@ section {
     z-index: 9996;
   }
 }
+
+
+
+
 
 /*--------------------------------------------------------------
 # About Section
@@ -691,6 +742,10 @@ section {
   }
 }
 
+
+
+
+
 /*--------------------------------------------------------------
 # Why Us Section
 --------------------------------------------------------------*/
@@ -770,6 +825,10 @@ section {
   }
 }
 
+
+
+
+
 /*--------------------------------------------------------------
 # Stats Counter Section
 --------------------------------------------------------------*/
@@ -805,6 +864,10 @@ section {
   font-weight: 700;
   color: rgba(255, 255, 255, 0.6);
 }
+
+
+
+
 
 /*--------------------------------------------------------------
 # Menu Section
@@ -907,6 +970,10 @@ section {
   color: var(--color-primary);
 }
 
+
+
+
+
 /*--------------------------------------------------------------
 # Testimonials Section
 --------------------------------------------------------------*/
@@ -920,9 +987,10 @@ section {
 }
 
 .testimonials .testimonial-item .testimonial-content {
-  border-left: 3px solid var(--color-primary);
+  border-left: 3px solid var(--color-tertiary);
   padding-left: 30px;
 }
+
 
 .testimonials .testimonial-item .testimonial-img {
   border-radius: 50%;
@@ -934,15 +1002,15 @@ section {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: var(--color-default);
+  color: var(--color-tertiary);
   font-family: var(--font-secondary);
 }
 
 .testimonials .testimonial-item h4 {
   font-size: 14px;
-  color: #6c757d;
+  color: #ffffff;
   margin: 0 0 10px 0;
-  font-family: var(--font-secondary);
+  font-family: var(--font-tertiary);
 }
 
 .testimonials .testimonial-item .stars i {
@@ -952,7 +1020,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #f05656;
+  color: #ffffff;
   font-size: 26px;
   line-height: 0;
 }
@@ -973,6 +1041,7 @@ section {
 
 .testimonials .testimonial-item p {
   font-style: italic;
+  color: #ffffff;
 }
 
 .testimonials .swiper-pagination {
@@ -983,13 +1052,17 @@ section {
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #d1d1d7;
+  background-color: #ffffff;
   opacity: 1;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: var(--color-primary);
 }
+
+
+
+
 
 /*--------------------------------------------------------------
 # Events Section
@@ -1065,98 +1138,8 @@ section {
   background-color: var(--color-primary);
 }
 
-/*--------------------------------------------------------------
-# Chefs Section
---------------------------------------------------------------*/
-.chefs .chef-member {
-  overflow: hidden;
-  text-align: center;
-  border-radius: 5px;
-  background: #fff;
-  box-shadow: 0px 0 30px rgba(55, 55, 63, 0.08);
-  transition: 0.3s;
-}
 
-.chefs .chef-member .member-img {
-  position: relative;
-  overflow: hidden;
-}
 
-.chefs .chef-member .member-img:after {
-  position: absolute;
-  content: "";
-  left: 0;
-  bottom: 0;
-  height: 100%;
-  width: 100%;
-  background: url(../img/team-shape.svg) no-repeat center bottom;
-  background-size: contain;
-  z-index: 1;
-}
-
-.chefs .chef-member .social {
-  position: absolute;
-  right: -100%;
-  top: 30px;
-  opacity: 0;
-  border-radius: 4px;
-  transition: 0.5s;
-  background: rgba(255, 255, 255, 0.3);
-  z-index: 2;
-}
-
-.chefs .chef-member .social a {
-  transition: color 0.3s;
-  color: rgba(55, 55, 63, 0.4);
-  margin: 15px 12px;
-  display: block;
-  line-height: 0;
-  text-align: center;
-}
-
-.chefs .chef-member .social a:hover {
-  color: rgba(55, 55, 63, 0.9);
-}
-
-.chefs .chef-member .social i {
-  font-size: 18px;
-}
-
-.chefs .chef-member .member-info {
-  padding: 10px 15px 20px 15px;
-}
-
-.chefs .chef-member .member-info h4 {
-  font-weight: 700;
-  margin-bottom: 5px;
-  font-size: 20px;
-  color: var(--color-secondary);
-}
-
-.chefs .chef-member .member-info span {
-  display: block;
-  font-size: 14px;
-  font-weight: 400;
-  color: rgba(33, 37, 41, 0.4);
-}
-
-.chefs .chef-member .member-info p {
-  font-style: italic;
-  font-size: 14px;
-  padding-top: 15px;
-  line-height: 26px;
-  color: rgba(33, 37, 41, 0.7);
-}
-
-.chefs .chef-member:hover {
-  transform: scale(1.08);
-  box-shadow: 0px 0 30px rgba(55, 55, 63, 0.15);
-}
-
-.chefs .chef-member:hover .social {
-  right: 8px;
-  opacity: 1;
-}
 
 /*--------------------------------------------------------------
 # Book A Table Section
@@ -1285,46 +1268,8 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Gallery Section
---------------------------------------------------------------*/
-.gallery {
-  overflow: hidden;
-}
 
-.gallery .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
 
-.gallery .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #d1d1d7;
-  opacity: 1;
-}
-
-.gallery .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--color-primary);
-}
-
-.gallery .swiper-slide-active {
-  text-align: center;
-}
-
-@media (min-width: 992px) {
-  .gallery .swiper-wrapper {
-    padding: 40px 0;
-  }
-
-  .gallery .swiper-slide-active {
-    border: 6px solid var(--color-primary);
-    padding: 4px;
-    background: #fff;
-    z-index: 1;
-    transform: scale(1.2);
-  }
-}
 
 /*--------------------------------------------------------------
 # Contact Section
@@ -1471,6 +1416,9 @@ section {
   }
 }
 
+
+
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -1495,63 +1443,14 @@ section {
 }
 
 .hero p {
-  color: #4f4f5a;
+  color: #ffffff;
   font-weight: 400;
   margin-bottom: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.hero .btn-book-a-table {
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 12px 36px;
-  border-radius: 50px;
-  transition: 0.5s;
-  color: #fff;
-  background: var(--color-primary);
-  box-shadow: 0 8px 28px rgba(206, 18, 18, 0.2);
-}
 
-.hero .btn-book-a-table:hover {
-  background: rgba(206, 18, 18, 0.8);
-  box-shadow: 0 8px 28px rgba(206, 18, 18, 0.45);
-}
 
-.hero .btn-watch-video {
-  font-size: 16px;
-  transition: 0.5s;
-  margin-left: 25px;
-  color: var(--font-secondary);
-  font-weight: 600;
-}
-
-.hero .btn-watch-video i {
-  color: var(--color-primary);
-  font-size: 32px;
-  transition: 0.3s;
-  line-height: 0;
-  margin-right: 8px;
-}
-
-.hero .btn-watch-video:hover {
-  color: var(--color-primary);
-}
-
-.hero .btn-watch-video:hover i {
-  color: rgba(206, 18, 18, 0.8);
-}
-
-@media (max-width: 640px) {
-  .hero h2 {
-    font-size: 36px;
-  }
-
-  .hero .btn-get-started,
-  .hero .btn-watch-video {
-    font-size: 14px;
-  }
-}
 
 /*--------------------------------------------------------------
 # Footer
