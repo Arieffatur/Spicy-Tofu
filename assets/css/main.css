@@ -607,7 +607,7 @@ section {
 # About Section
 --------------------------------------------------------------*/
 .about .about-img {
-  min-height: 100px;
+  min-height: 500px;
 }
 
 .about h3 {
@@ -660,7 +660,6 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
-  text-align: justify;
 }
 
 .about .play-btn {
@@ -741,9 +740,6 @@ section {
     opacity: 0;
   }
 }
-
-
-
 
 
 /*--------------------------------------------------------------
@@ -1457,79 +1453,20 @@ section {
 --------------------------------------------------------------*/
 .footer {
   font-size: 14px;
-  background-color: #ce1212;
-  padding: 50px 0;
+  background-color: #830000;
+  padding: 20px 0;
   color: rgba(255, 255, 255, 0.7);
 }
 
-.footer .icon {
-  margin-right: 15px;
-  font-size: 24px;
-  line-height: 0;
-}
-
-.footer h4 {
-  font-size: 16px;
-  font-weight: bold;
-  position: relative;
-  padding-bottom: 5px;
-  color: #fff;
-}
-
-.footer .footer-links {
-  margin-bottom: 30px;
-}
-
-.footer .footer-links ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.footer .footer-links ul li {
-  padding: 10px 0;
-  display: flex;
-  align-items: center;
-}
-
-.footer .footer-links ul li:first-child {
-  padding-top: 0;
-}
-
-.footer .footer-links ul a {
-  color: rgba(255, 255, 255, 0.6);
-  transition: 0.3s;
-  display: inline-block;
-  line-height: 1;
-}
-
-.footer .footer-links ul a:hover {
-  color: #fff;
-}
-
-.footer .social-links a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  font-size: 16px;
-  color: rgba(255, 255, 255, 0.7);
-  margin-right: 10px;
-  transition: 0.3s;
-}
-
-.footer .social-links a:hover {
+.footer .icon a{
   color: #fff;
   border-color: #fff;
 }
 
 .footer .copyright {
   text-align: center;
-  padding-top: 30px;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.849);
 }
 
 .footer .credits {
@@ -1540,4 +1477,79 @@ section {
 
 .footer .credits a {
   color: #fff;
+}
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+.main{
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #830000;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background: #fff;
+    margin: 15px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 50px;
+    font-family: sans-serif;
+    overflow: hidden;
+    box-shadow: 5px 10px 20px rgba(150, 150, 150, .3);
+    transition: all .3s ease-out;
+}
+.icon:hover{
+    width: 400px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+}
+.icon:hover i{
+    color: #fff;
+  }
+.icon .fa-tiktok{
+    color: #000;
+}
+.tik:hover{
+    background: #000;
+  }
+    .icon .fa-instagram{
+        color: #E1306C;
+    }
+    .inst:hover{
+        background: #E1306C;
+    }
+.icon .fa-facebook-f{
+    color: #1A6ED8;
+}
+.fb:hover{
+    background: #1A6ED8;
+}
+.icon .fa-github{
+    color: #000;
+}
+.git:hover{
+    background: #000;
+}
+.icon .fa-youtube{
+    color: #FE0000;
+}
+.yt:hover{
+    background: #FE0000;
+}
+
+/* responsive */
+@media only screen and (min-width: 320px) and (max-width: 991px) {
+    .main{
+        flex-direction: column;
+    }
 }
