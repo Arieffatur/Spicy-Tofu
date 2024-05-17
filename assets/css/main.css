@@ -1453,107 +1453,142 @@ section {
 # Footer
 --------------------------------------------------------------*/
 .footer {
-  font-size: 14px;
-  background-color: #830000;
-  padding: 20px 0;
-  color: rgba(255, 255, 255, 0.7);
+  display: grid;
+  padding-top: 30px;
+  height: 150%;
+  width: 100%;
+  place-items: center;
+  background: linear-gradient(315deg, #ffc6c6 0%, #fda5a5 74%);
 }
 
 .footer .icon a{
-  color: #fff;
+  color: #000000;
   border-color: #fff;
 }
 
 .footer .copyright {
   text-align: center;
   padding-top: 10px;
-  border-top: 1px solid rgba(255, 255, 255, 0.849);
+  border-top: 1px solid rgba(0, 0, 0, 0.626);
 }
 
 .footer .credits {
-  padding-top: 4px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   text-align: center;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .footer .credits a {
+  color: #000000;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.wrapper{
+  display: inline-flex;
+}
+.wrapper .icon{
+  margin: 0 10px;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .icon span{
+  display: block;
+  height: 60px;
+  width: 60px;
+  background: #fff;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .icon span i{
+  line-height: 60px;
+  font-size: 25px;
+}
+.wrapper .icon .tooltip{
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  background: #fff;
+  color: #fff;
+  padding: 10px 18px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 25px;
+  opacity: 0;
+  pointer-events: none;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .icon:hover .tooltip{
+  top: -70px;
+  opacity: 1;
+  pointer-events: auto;
+}
+.icon .tooltip:before{
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  background: #fff;
+  left: 50%;
+  bottom: -6px;
+  transform: translateX(-50%) rotate(45deg);
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .icon:hover span{
   color: #fff;
 }
-
-*{margin: 0; padding: 0; box-sizing: border-box;}
-.main{
-    border-radius: 5%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #830000;
-    -webkit-border-radius: 5%;
-    -moz-border-radius: 5%;
-    -ms-border-radius: 5%;
-    -o-border-radius: 5%;
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip{
+  text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
 }
-.icon{
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
-    background: #fff;
-    margin: 15px;
-    text-align: center;
-    font-size: 25px;
-    line-height: 50px;
-    font-family: sans-serif;
-    overflow: hidden;
-    box-shadow: 5px 10px 20px rgba(150, 150, 150, .3);
-    transition: all .3s ease-out;
+.wrapper .tiktok:hover span,
+.wrapper .tiktok:hover .tooltip,
+.wrapper .tiktok:hover .tooltip:before{
+  background: #333;
 }
-.icon:hover{
-    width: 400px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    color: #fff;
+.wrapper .facebook:hover span,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip:before{
+  background: #3B5999;
 }
-.icon:hover i{
-    color: #fff;
-  }
-.icon .fa-tiktok{
-    color: #000;
+.wrapper .instagram:hover span,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip:before{
+  background: #e1306c;
 }
-.tik:hover{
-    background: #000;
-  }
-    .icon .fa-instagram{
-        color: #E1306C;
-    }
-    .inst:hover{
-        background: #E1306C;
-    }
-.icon .fa-facebook-f{
-    color: #1A6ED8;
+.wrapper .github:hover span,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip:before{
+  background: #333;
 }
-.fb:hover{
-    background: #1A6ED8;
+.wrapper .youtube:hover span,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip:before{
+  background: #cd201f;
 }
-.icon .fa-github{
-    color: #000;
+.wrapper .Whatsapp:hover span,
+.wrapper .Whatsapp:hover .tooltip,
+.wrapper .Whatsapp:hover .tooltip:before{
+  background: #25D366;
 }
-.git:hover{
-    background: #000;
-}
-.icon .fa-youtube{
-    color: #FE0000;
-}
-.yt:hover{
-    background: #FE0000;
-}
-.icon .fa-whatsapp{
-    color: #25D366;
-}
-.wa:hover{
-    background: #25D366;
-}
-
 /* responsive */
 @media only screen and (min-width: 320px) and (max-width: 991px) {
     .main{
