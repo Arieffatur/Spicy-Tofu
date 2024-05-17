@@ -183,7 +183,7 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: var(--color-primary);
+  background: var(--color-secondary);
   width: 44px;
   height: 44px;
   border-radius: 50px;
@@ -192,13 +192,13 @@ section {
 
 .scroll-top i {
   font-size: 24px;
-  color: #fff;
+  color: #000000;
   line-height: 0;
 }
 
 .scroll-top:hover {
   background: #ec2727;
-  color: #fff;
+  color: #ffffff;
 }
 
 .scroll-top.active {
@@ -1242,16 +1242,17 @@ section {
 }
 
 .book-a-table .php-email-form button[type=submit] {
-  background: var(--color-primary);
+  background: var(--color-secondary);
   border: 0;
   padding: 14px 60px;
-  color: #fff;
+  color: #000000;
   transition: 0.4s;
   border-radius: 50px;
 }
 
 .book-a-table .php-email-form button[type=submit]:hover {
-  background: #ec2727;
+  background: var(--color-primary);
+  color: #ffffff;
 }
 
 @keyframes animate-loading {
@@ -1545,6 +1546,12 @@ section {
 }
 .yt:hover{
     background: #FE0000;
+}
+.icon .fa-whatsapp{
+    color: #25D366;
+}
+.wa:hover{
+    background: #25D366;
 }
 
 /* responsive */
