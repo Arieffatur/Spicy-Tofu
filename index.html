@@ -4,7 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>tahupastipedas</title>
+
+  <title>TahuPastiPedas</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -12,10 +13,10 @@
   <link href="assets/img/lgo.png" rel="icon">
   <link href="assets/img/lgo.png" rel="apple-touch-icon">
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -24,149 +25,68 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Main CSS File -->
+  <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/b356ad9dc8.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 
 </head>
 
-<body class="index-page">
+<body>
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
-      <a href="index.html" class="logo d-flex align-items-center me-auto">
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">TAHU PASTI PEDAS</h1>
+        <h1>Tahu Pasti Pedas<span>.</span></h1>
       </a>
 
-      <nav id="navmenu" class="navmenu">
+      <nav id="navbar" class="navbar">
         <ul>
-          
           <li><a href="#about">About</a></li>
-          <li><a href="#services">Produk & Layanan</a></li>
-          <li><a href="#portfolio">Menu</a></li>
-          
-          
-            <ul>
-              
-                <ul>
-                
-                </ul>
-              </li>
-              
-            </ul>
-          </li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#events">Events</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
+      </nav><!-- .navbar -->
 
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-three-dots-vertical"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-arrow-up-right-circle-fill"></i>
 
     </div>
-  </header>
+  </header><!-- End Header -->
 
-  <main class="main">
-
-    <!-- Hero Section -->
-    <section id="hero" class="hero section">
-
-      <div class="container">
-        <div class="row gy-4">
-          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
-            <h1 class="">Yang Pasti Rasanya Pedas</h1>
-            <p class="">Aku Tahu Kamu Lapar!!!</p>
-            <div class="d-flex">
-              
-            </div>
-          </div>
-          <div class="col-lg-6 order-1 order-lg-2 hero-img">
-            <img src="assets/img/lgo.png" class="img-fluid animated" alt="">
-          </div>
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center section-bg">
+    <div class="container">
+      <div class="row justify-content-between gy-5">
+        <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
+          <h2 data-aos="fade-up">Welcome To<br>Tahu Pasti Pedas</h2>
+          <p data-aos="fade-up" data-aos-delay="100">Aku Tahu Kamu Laper !!!</p>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img">
+          <img src="assets/img/lgo.png" class="img-fluid animated" alt="">
         </div>
       </div>
+    </div>
 
-    </section><!-- /Hero Section -->
-
-    <!-- Clients Section -->
-    <section id="clients" class="clients section">
-
-      <section id="jam" class="jam section"><!--jam selection-->
-        <div class="container">
-          <div class="icons">
-           
-          </div>
-          <div class="time">
-            <div class="time-colon">
-              <div class="time-text">
-                <span class="num hour_num">08</span>
-                <span class="text">Hours</span>
-              </div>
-              <span class="colon">:</span>
-            </div>
-            <div class="time-colon">
-              <div class="time-text">
-                <span class="num min_num">45</span>
-                <span class="text">Minutes</span>
-              </div>
-              <span class="colon">:</span>
-            </div>
-            <div class="time-colon">
-              <div class="time-text">
-                <span class="num sec_num">06</span>
-                <span class="text">Seconds</span>
-              </div>
-              <span class="am_pm">AM</span>
-            </div>
-          </div>
-        </div>
+  </section><!-- End Hero Section -->
   
-        <script>
-          let section = document.querySelector("section"),
-          icons = document.querySelector(".icons");
-        
-          icons.onclick = ()=>{
-            section.classList.toggle("dark");
-          }
-        
-          // creating a function and calling it in every seconds
-          setInterval(()=>{
-        
-            let date = new Date(),
-            hour = date.getHours(),
-            min = date.getMinutes(),
-            sec = date.getSeconds();
-        
-            let d;
-            d = hour < 12 ? "AM" : "PM"; //if hour is smaller than 12, than its value will be AM else its value will be pm
-            hour = hour > 12 ? hour - 12 : hour; //if hour value is greater than 12 than 12 will subtracted ( by doing this we will get value till 12 not 13,14 or 24 )
-            hour = hour == 0 ? hour = 12 : hour; // if hour value is  0 than it value will be 12
-        
-            // adding 0 to the front of all the value if they will less than 10
-            hour = hour < 10 ? "0" + hour : hour;
-            min = min < 10 ? "0" + min : min;
-            sec = sec < 10 ? "0" + sec : sec;
-        
-            document.querySelector(".hour_num").innerText = hour;
-            document.querySelector(".min_num").innerText = min;
-            document.querySelector(".sec_num").innerText = sec;
-            document.querySelector(".am_pm").innerText = d;
-        
-          }, 1000); // 1000 milliseconds = 1s
-        
-          </script>
-          <!-- /jam selection -->
-      </section>
-      
-    </section><!-- /Clients Section -->
 
-    <!-- About Section -->
-    <section id="about" class="about section">
+  
+   <!-- ======= About Section ======= -->
+   <section id="about" class="about">
+    <div class="container" data-aos="fade-up">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2 class="">Tentang Kami</h2>
-      </div><!-- End Section Title -->
+      <div class="section-header">
+        <h2>About Us</h2>
+        <br><p>Pelajari Lebih Lanjut  <span>Tentanng Kami</span></p>
+      </div>
 
       <div class="container">
 
@@ -184,9 +104,9 @@
             </ul>
           </div>
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
            
-            <ul>
+            <ul><br>
               <li><i class="bi bi-check2-circle"></i> <span>Kami sangat senang bisa berbagi kelezatan tahu pasti pedas kami kepada pelanggan setia. Kami berharap kita semua menikmati setiap sajian kami sebanyak yang kami nikmati dalam menciptakannya.</span></li><br>
               <li><i class="bi bi-check2-circle"></i> <span>Terima kasih telah memilih Tahu Pasti Pedas sebagai teman setia Anda dalam menikmati cita rasa yang pedas dan memuaskan. Jangan ragu untuk menghubungi kami jika Anda memiliki pertanyaan atau masukan. Kami selalu siap melayani Anda dengan senyum dan keramahan.</span></li><br>
               <li><i class="bi bi-check2-circle"></i> <span>Salam hangat,
@@ -197,282 +117,313 @@
         </div>
 
       </div>
+          </div>
+        </div>
+      </div>
 
-    </section><!-- /About Section -->
+    </div>
+  </section><!-- End About Section -->
 
-   
+   <!-- Services Section -->
+   <section id="services" class="services section">
 
+    <div class="section-header">
+      <h2></h2>
+      <br><p>Manfaat  <span>Tahu Pasti Pedas</span></p>
+    </div>
 
-    <!-- Services Section -->
-    <section id="services" class="services section">
+    <div class="container">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Manfaat Tahu Pasti pedas:</h2>
-        <p></p>
-      </div><!-- End Section Title -->
+      <p><div class="row gy-4"></p>
 
-      <div class="container">
+        <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-item position-relative">
+            <div class="icon"><i class="bi bi-activity icon"></i></div>
+            <h4><a href="service-details.html" class="stretched-link">Sumber Protein</a></h4>
+            <p>Tahu adalah sumber protein nabati yang baik. Protein penting untuk pembentukan otot, pemeliharaan jaringan tubuh, dan fungsi tubuh lainnya.</p>
+          </div>
+        </div><!-- End Service Item -->
+
+        <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-item position-relative">
+            <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
+            <h4><a href="service-details.html" class="stretched-link">Pemenuhan Kebutuhan Gizi</a></h4>
+            <p>Tahu mengandung berbagai nutrisi penting seperti kalsium, fosfor, zat besi, magnesium, dan kalium. Ini membantu memenuhi kebutuhan gizi harian tubuh.</p>
+          </div>
+        </div><!-- End Service Item -->
+
+        <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+          <div class="service-item position-relative">
+            <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
+            <h4><a href="service-details.html" class="stretched-link">Mengatur Kolesterol</a></h4>
+            <p>Kandungan serat dalam tahu membantu mengikat kolesterol dalam tubuh dan mengeluarkannya melalui sistem pencernaan. Ini dapat membantu mengurangi kadar kolesterol jahat (LDL) dalam darah.</p>
+          </div>
+        </div><!-- End Service Item -->
+
+        <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+          <div class="service-item position-relative">
+            <div class="icon"><i class="bi bi-broadcast icon"></i></div>
+            <h4><a href="service-details.html" class="stretched-link">Mendukung Kesehatan Jantung
+            </a></h4>
+            <p>Kandungan asam lemak tak jenuh dalam tahu dapat membantu meningkatkan kesehatan jantung dan mengurangi risiko penyakit jantung.</p>
+          </div>
+        </div><!-- End Service Item -->
+
+        <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+          <div class="service-item position-relative">
+            <div class="icon"><i class="bi bi-broadcast icon"></i></div>
+            <h4><a href="service-details.html" class="stretched-link">Menurunkan Risiko Diabetes</a></h4>
+            <p>Konsumsi tahu secara teratur dapat membantu mengatur kadar gula darah dan menurunkan risiko diabetes tipe 2.</p>
+          </div>
+        </div><!-- End Service Item -->
+
+        <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+          <div class="service-item position-relative">
+            <div class="icon"><i class="bi bi-broadcast icon"></i></div>
+            <h4><a href="service-details.html" class="stretched-link">Peningkatan Metabolisme</a></h4>
+            <p>Tahu mengandung mangan, yang penting untuk aktivasi enzim yang berperan dalam metabolisme tubuh.</p>
+          </div>
+        </div><!-- End Service Item -->
+
+        <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+          <div class="service-item position-relative">
+            <div class="icon"><i class="bi bi-broadcast icon"></i></div>
+            <h4><a href="service-details.html" class="stretched-link">Membantu Menurunkan Berat Badan</a></h4>
+            <p>Kandungan protein tinggi dalam tahu dapat membantu merasa kenyang lebih lama, sehingga mengurangi nafsu makan dan membantu dalam program penurunan berat badan.</p>
+          </div>
+        </div><!-- End Service Item -->
+
+        <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+          <div class="service-item position-relative">
+            <div class="icon"><i class="bi bi-broadcast icon"></i></div>
+            <h4><a href="service-details.html" class="stretched-link">Mendukung Kesehatan Tulang</a></h4>
+            <p>Kalsium dan fosfor dalam tahu penting untuk kesehatan tulang dan gigi yang baik.</p>
+          </div>
+        </div><!-- End Service Item -->
+
+        <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+          <div class="service-item position-relative">
+            <div class="icon"><i class="bi bi-broadcast icon"></i></div>
+            <h4><a href="service-details.html" class="stretched-link">Meningkatkan Sistem Kekebalan Tubuh</a></h4>
+            <p>Tahu mengandung zat-zat antioksidan dan vitamin B kompleks yang membantu meningkatkan sistem kekebalan tubuh.</p>
+          </div>
+        </div><!-- End Service Item -->
+
+        <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+          <div class="service-item position-relative">
+            <div class="icon"><i class="bi bi-broadcast icon"></i></div>
+            <h4><a href="service-details.html" class="stretched-link">Mendukung Kesehatan Pencernaan</a></h4>
+            <p>Kandungan serat dalam tahu membantu mempromosikan pencernaan yang sehat dan mencegah sembelit.</p>
+          </div>
+        </div><!-- End Service Item -->
+        
+
+      </div>
+
+    </div>
+
+  </section><!-- /Services Section -->
+
+    <!-- ======= Stats Counter Section ======= -->
+    <section id="stats-counter" class="stats-counter">
+      <div class="container" data-aos="zoom-out">
 
         <div class="row gy-4">
 
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item position-relative">
-              <div class="icon"><i class="bi bi-activity icon"></i></div>
-              <h4><a href="service-details.html" class="stretched-link">Sumber Protein</a></h4>
-              <p>Tahu adalah sumber protein nabati yang baik. Protein penting untuk pembentukan otot, pemeliharaan jaringan tubuh, dan fungsi tubuh lainnya.</p>
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="0" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Clients</p>
             </div>
-          </div><!-- End Service Item -->
+          </div><!-- End Stats Item -->
 
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item position-relative">
-              <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
-              <h4><a href="service-details.html" class="stretched-link">Pemenuhan Kebutuhan Gizi</a></h4>
-              <p>Tahu mengandung berbagai nutrisi penting seperti kalsium, fosfor, zat besi, magnesium, dan kalium. Ini membantu memenuhi kebutuhan gizi harian tubuh.</p>
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Projects</p>
             </div>
-          </div><!-- End Service Item -->
+          </div><!-- End Stats Item -->
 
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item position-relative">
-              <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
-              <h4><a href="service-details.html" class="stretched-link">Mengatur Kolesterol</a></h4>
-              <p>Kandungan serat dalam tahu membantu mengikat kolesterol dalam tubuh dan mengeluarkannya melalui sistem pencernaan. Ini dapat membantu mengurangi kadar kolesterol jahat (LDL) dalam darah.</p>
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Hours Of Support</p>
             </div>
-          </div><!-- End Service Item -->
+          </div><!-- End Stats Item -->
 
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item position-relative">
-              <div class="icon"><i class="bi bi-broadcast icon"></i></div>
-              <h4><a href="service-details.html" class="stretched-link">Mendukung Kesehatan Jantung
-              </a></h4>
-              <p>Kandungan asam lemak tak jenuh dalam tahu dapat membantu meningkatkan kesehatan jantung dan mengurangi risiko penyakit jantung.</p>
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Workers</p>
             </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item position-relative">
-              <div class="icon"><i class="bi bi-broadcast icon"></i></div>
-              <h4><a href="service-details.html" class="stretched-link">Menurunkan Risiko Diabetes</a></h4>
-              <p>Konsumsi tahu secara teratur dapat membantu mengatur kadar gula darah dan menurunkan risiko diabetes tipe 2.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item position-relative">
-              <div class="icon"><i class="bi bi-broadcast icon"></i></div>
-              <h4><a href="service-details.html" class="stretched-link">Peningkatan Metabolisme</a></h4>
-              <p>Tahu mengandung mangan, yang penting untuk aktivasi enzim yang berperan dalam metabolisme tubuh.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item position-relative">
-              <div class="icon"><i class="bi bi-broadcast icon"></i></div>
-              <h4><a href="service-details.html" class="stretched-link">Membantu Menurunkan Berat Badan</a></h4>
-              <p>Kandungan protein tinggi dalam tahu dapat membantu merasa kenyang lebih lama, sehingga mengurangi nafsu makan dan membantu dalam program penurunan berat badan.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item position-relative">
-              <div class="icon"><i class="bi bi-broadcast icon"></i></div>
-              <h4><a href="service-details.html" class="stretched-link">Mendukung Kesehatan Tulang</a></h4>
-              <p>Kalsium dan fosfor dalam tahu penting untuk kesehatan tulang dan gigi yang baik.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item position-relative">
-              <div class="icon"><i class="bi bi-broadcast icon"></i></div>
-              <h4><a href="service-details.html" class="stretched-link">Meningkatkan Sistem Kekebalan Tubuh</a></h4>
-              <p>Tahu mengandung zat-zat antioksidan dan vitamin B kompleks yang membantu meningkatkan sistem kekebalan tubuh.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item position-relative">
-              <div class="icon"><i class="bi bi-broadcast icon"></i></div>
-              <h4><a href="service-details.html" class="stretched-link">Mendukung Kesehatan Pencernaan</a></h4>
-              <p>Kandungan serat dalam tahu membantu mempromosikan pencernaan yang sehat dan mencegah sembelit.</p>
-            </div>
-          </div><!-- End Service Item -->
-          
+          </div><!-- End Stats Item -->
 
         </div>
 
       </div>
+    </section><!-- End Stats Counter Section -->
 
-    </section><!-- /Services Section -->
+    <!-- ======= Menu Section ======= -->
+    <section id="menu" class="menu">
+      <div class="container" data-aos="fade-up">
 
-    
-
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Periksa Menu Lezat Kami</h2>
-        <p></p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/menu-item-3.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Tahu Pedas</h4>
-                <p>Pastinya pedaas!!!</p>
-                <a href="assets/img/menu-item-3.png" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="#" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/menu-item-2.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Tahu Pedas</h4>
-                <p>Pastinya pedaas!!!</p>
-                <a href="assets/img/menu-item-2.png" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="#" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/menu-item-1.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Tahu Pedas</h4>
-                <p>Pastinya pedaas!!!</p>
-                <a href="assets/img/menu-item-1.png" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="#" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-      
-           
-
-          </div><!-- End Portfolio Container -->
-
+        <div class="section-header">
+          <h2>Menu</h2>
+          <p>Periksa <span>Menu Lezat Kami</span></p>
         </div>
 
-      </div>
+        <div class="tab-content" data-aos="fade-up" data-aos-delay="300">
 
-    </section><!-- /Portfolio Section -->
+          <div class="tab-pane fade active show" id="menu-starters">
 
-    
+            <div class="tab-header text-center">
+              <p></p>
+              <h3></h3>
+            </div>
 
-    <!-- Pricing Section -->
-    <section id="pricing" class="pricing section">
+            <div class="row gy-5">
 
-      
-    </section><!-- /Pricing Section -->
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Tahu pedas LVL. 1</h4>
+                <p class="ingredients">
+                  Pasti Pedas !!!
+                </p>
+                <p class="price">
+                  5K
+                </p>
+              </div><!-- Menu Item -->
 
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section">
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Tahu pedas LVL. 2</h4>
+                <p class="ingredients">
+                  Pasti Pedas !!!
+                </p>
+                <p class="price">
+                  5K
+                </p>
+              </div><!-- Menu Item -->
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Testimonials</h2>
-        <p></p>
-      </div><!-- End Section Title -->
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Tahu pedas LVL. 3</h4>
+                <p class="ingredients">
+                  Pasti Pedas !!!
+                </p>
+                <p class="price">
+                  5K
+                </p>
+              </div><!-- Menu Item -->
+            </div>
+          </div><!-- End Lunch Menu Content -->
+    </section><!-- End Menu Section -->
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container" data-aos="fade-up">
 
-        <div class="swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              }
-            }
-          </script>
+        <div class="section-header">
+          <h2>Testimonials</h2>
+          <p>Apa  Kata Mereka Tentang Kami<span></span></p>
+        </div>
+
+        <div class="slides-1 swiper" data-aos="fade-up" data-aos-delay="100">
           <div class="swiper-wrapper">
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        Jika kamu terlahir di keluarga kurang mampu, maka kamu lah yang harus merubah, supaya keluarga mu menjadi keluarga yang mampu dari segala hal
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      <h3>Rafi Achmad</h3>
+                      <h4>Ceo &amp; Founder</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 text-center">
+                    <img src="assets/img/testimonials/rafi.jpeg" class="img-fluid testimonial-img" alt="">
+                  </div>
                 </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Jika kamu terlahir di keluarga kurang mampu, maka kamu lah yang harus merubah, supaya keluarga mu menjadi keluarga yang mampu dari segala hal</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        Jika kamu terlahir di keluarga kurang mampu, maka kamu lah yang harus merubah, supaya keluarga mu menjadi keluarga yang mampu dari segala hal
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      <h3>willy salim</h3>
+                      <h4>Designer</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 text-center">
+                    <img src="assets/img/testimonials/willy.jpeg" class="img-fluid testimonial-img" alt="">
+                  </div>
                 </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Jika kamu terlahir di keluarga kurang mampu, maka kamu lah yang harus merubah, supaya keluarga mu menjadi keluarga yang mampu dari segala hal</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        Jika kamu terlahir di keluarga kurang mampu, maka kamu lah yang harus merubah, supaya keluarga mu menjadi keluarga yang mampu dari segala hal
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      <h3>Rafatar</h3>
+                      <h4>Store Owner</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 text-center">
+                    <img src="assets/img/testimonials/rafatar.jpeg" class="img-fluid testimonial-img" alt="">
+                  </div>
                 </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Jika kamu terlahir di keluarga kurang mampu, maka kamu lah yang harus merubah, supaya keluarga mu menjadi keluarga yang mampu dari segala hal</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        Jika kamu terlahir di keluarga kurang mampu, maka kamu lah yang harus merubah, supaya keluarga mu menjadi keluarga yang mampu dari segala hal
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      <h3>cipung</h3>
+                      <h4>Entrepreneur</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 text-center">
+                    <img src="assets/img/testimonials/cipung.jpeg" class="img-fluid testimonial-img" alt="">
+                  </div>
                 </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Jika kamu terlahir di keluarga kurang mampu, maka kamu lah yang harus merubah, supaya keluarga mu menjadi keluarga yang mampu dari segala hal</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Jika kamu terlahir di keluarga kurang mampu, maka kamu lah yang harus merubah, supaya keluarga mu menjadi keluarga yang mampu dari segala hal</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
               </div>
             </div><!-- End testimonial item -->
 
@@ -481,146 +432,198 @@
         </div>
 
       </div>
+    </section><!-- End Testimonials Section -->
 
-    </section><!-- /Testimonials Section -->
+    <!-- ======= Events Section ======= -->
+    <section id="events" class="events">
+      <div class="container-fluid" data-aos="fade-up">
 
-    <!-- Faq 2 Section -->
-    <section id="faq-2" class="faq-2 section">
+        <div class="section-header">
+          <h2>Events</h2>
+          <p>Bagikan <span>Momen Anda</span> Di Tempat Kami</p>
+        </div>
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
+        <div class="slides-3 swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/events.jpeg)">
+              <h3>Pesta Pernikahan</h3>
+              <div class="price align-self-start">200k</div>
+              <p class="description">
+                menggunakan produk Tahu Pasti Pedas di acara pesta pernikahan, memanglah sangat nikmat 
+              </p>
+            </div><!-- End Event item -->
+
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/events.jpeg)">
+              <h3>Pihak Swasta</h3>
+              <div class="price align-self-start">200k</div>
+              <p class="description">
+                menggunakan produk Tahu Pasti Pedas di saat meeting, memanglah sangat nikmat 
+              </p>
+            </div><!-- End Event item -->
+
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/events.jpeg)">
+              <h3>Pesta Ulang Tahun</h3>
+              <div class="price align-self-start">200k</div>
+              <p class="description">
+                menggunakan produk Tahu Pasti Pedas di acara pesta ulang tahun, memanglah sangat nikmat 
+              </p>
+            </div><!-- End Event item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Events Section -->
+
+        </div>
+
+      </div>
+    </section><!-- End Chefs Section -->
+
+    <!-- ======= Book A Table Section ======= -->
+    <section id="book-a-table" class="book-a-table">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2><p><span>Mau Pesan Dalam Jumlah Banyak?</span></p></h2><br>
+        </div>
+
+        <div class="row g-0">
+
+          <div class="col-lg-4 reservation-img" style="background-image: url(assets/img/pesan.jpeg);" data-aos="zoom-out" data-aos-delay="200"></div>
+
+          <div class="col-lg-8 d-flex align-items-center reservation-form-bg">
+            <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
+              <div class="row gy-4">
+                <div class="col-lg-4 col-md-6">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Nama Kamu" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                  <div class="validate"></div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <input type="text" class="form-control" name="phone" id="phone" placeholder="No. Telp/Whatsapp" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                  <div class="validate"></div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <input type="number" class="form-control" name="people" id="people" placeholder="Jumlah Yang Di Pesan" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Pesan"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Kirim Pesanan Anda</button></div>
+
+              <br><p>
+                <b><div class="text-center" font-size="1000px" style="font-family: Verdana, Geneva, Tahoma, sans-serif; color: #ff0000;"> Senin-Minggu: 08.00 - 21.00 </div></b>
+              </p>
+
+            </form>
+          </div><!-- End Reservation Form -->
       
-</div>
-    </section><!-- /Faq 2 Section -->
+        </div>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
+      </div>
+    </section><!-- End Book A Table Section -->
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p></p>
-      </div><!-- End Section Title -->
+   
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="section-header">
+          <h2>Contact</h2>
+          <p>Butuh Bantuan? <span>Hubungi Kami</span></p>
+        </div>
+
+        <div class="mb-3">
+          <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253863.71327231952!2d106.3677686313672!3d-6.181517794740252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ffb6b0ad7ae3%3A0x301576d14feb9b0!2sTangerang%20Regency%2C%20Banten!5e0!3m2!1sen!2sid!4v1715500754231!5m2!1sen!2sid" frameborder="0" allowfullscreen></iframe>
+        </div><!-- End Google Maps -->
 
         <div class="row gy-4">
 
-          <div class="col-lg-5">
-
-            <div class="info-wrap">
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-                <a href="https://goo.gl/maps/8XU2TqKJHvS8nN9n9"><i class="bi bi-geo-fill flex-shrink-0"></i></a>
-                <div>
-                  <h3>Alamat Kami</h3>
-                  <p>Tangerang, Banten, Indonesia</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-                <a href="https://wa.me/+6285180640488"><i class="bi bi-whatsapp flex-shrink-0"></i></a>
-                <div>
-                  <h3>Cs Tahu Pasti Pedas</h3>
-                  <p>+62 851 8064 0488 </p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-                <a href="mailto:tahupastipedas.id@gmail.com"><i class="bi bi-envelope-at flex-shrink-0"></i></a>
-                <div>
-                  <h3>Email kami</h3>
-                  <p>tahupastipedas.id@gmail.com</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253863.71327231952!2d106.3677686313672!3d-6.181517794740252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ffb6b0ad7ae3%3A0x301576d14feb9b0!2sTangerang%20Regency%2C%20Banten!5e0!3m2!1sen!2sid!4v1715500754231!5m2!1sen!2sid" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-          </div>
-
-          <div class="col-lg-7">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-              <div class="row gy-4">
-                  <p> <div class="container section-title" data-aos="fade-up">
-                    <h2>Mau Pesan Dalam Jumlah Banyak?</h2>
-                  </div><!-- End Section Title --></p>
-           
+          <div class="col-md-6">
+            <div class="info-item  d-flex align-items-center">
+              <i class="icon bi bi-geo-fill"></i>
+              <div>
+                <h3>Our Address</h3>
+                <p>Tangerang, Banten, IDN</p>
               </div>
-                  
-              <br><div class="col-md-12 text-center">
-                <a class="button" href="https://wa.me/+6285180640488" style="--color: #FF0000;">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  PESAN SEKARANG
-                </a>
-              </div><br>
+            </div>
+          </div><!-- End Info Item -->
 
-              <br><p><div class="text-center" data-aos="fade-up">
-                <strong><h4>Senin-Minggu: 08.00 - 21.00</h4><strong>
-              </div><!-- End Section Title --></p>
-            </form>
-          
-          </div><!-- End Contact Form -->
-                
-        </div>
+          <div class="col-md-6">
+            <div class="info-item d-flex align-items-center">
+              <a href="mailto:tahupastipedas.id@gmail.com"><i class="icon bi bi-envelope-at"></i></a>
+              <div>
+                <h3>Email Us</h3>
+                <p>tahupastipedas.id@gmail.com</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
 
-      </div>
+          <div class="col-md-6">
+            <div class="info-item  d-flex align-items-center">
+              <a href="https://wa.me/6285180640488"><i class="icon bi bi-whatsapp flex-shrink-0"></i></a>
+              <div>
+                <h3>CS Tahu Pasti Pedas</h3>
+                <p>+62 851 8064 0488</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
 
-    </section><!-- /Contact Section -->
+  
 
-  </main>
-
-  <footer id="footer" class="footer">
-    <div class="footer-newsletter">
-      <div class="mainbox">
-        <input type="checkbox" id="check">
-        <label for="check">Ikuti Kami</label>
-        <div class="media-icons">
-          <a href="#"><i class="fab fa-github"></i></a>
-          <a href="#"><i class="fab fa-tiktok"></i></a>
-          <a href="#"><i class="fab fa-facebook"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-youtube"></i></a>
         </div>
       </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+ <!-- ======= Footer ======= -->
+ <footer id="footer">
+  <div class="container">
+    <h3>Tahu Pasti Pedas</h3>
+    <p>Info Tahu Pasti Pedas</p>
+    <div class="social-links">
+      <a href="#" class="tiktok"><i class="bi bi-tiktok"></i></a>
+      <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+      <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+      <a href="#" class="github"><i class="bi bi-github"></i></a>
+      <a href="#" class="Youtube"><i class="bi bi-youtube"></i></a>
     </div>
-
- 
-        </div>
-      </div>
+    <div class="copyright">
+      &copy; Copyright <strong><span>TahuPastiPedas</span></strong>. All Rights Reserved
     </div>
-
-    <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">2024</strong> <span>All Rights Reserved</span></p>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="#">Tahu Pasti Pedas</a>
-      </div>
+    <div class="credits">
+      Designed by <a href="https://bootstrapmade.com/">TahuPastiPedas</a>
     </div>
+  </div>
+</footer><!-- End Footer -->
 
-  </footer>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Preloader -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-repeat"></i></a>
+
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- Main JS File -->
+  <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
 </body>
