@@ -75,9 +75,12 @@ section {
   overflow: clip;
 }
 
+
 .section-bg {
   background-color: #E23D28;
 }
+
+
 
 .section-header {
   text-align: center;
@@ -105,6 +108,7 @@ section {
 .section-header p span {
   color: var(--color-primary);
 }
+
 
 
 
@@ -327,7 +331,6 @@ section {
   color: #fff;
   background: rgba(206, 18, 18, 0.8);
 }
-
 
 
 
@@ -598,8 +601,6 @@ section {
     z-index: 9996;
   }
 }
-
-
 
 
 
@@ -1313,6 +1314,8 @@ section {
 }
 
 
+
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -1383,3 +1386,29 @@ section {
   color: #ff0000;
 }
 
+
+
+
+/* Add WA floating button CSS */
+  .floating {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  bottom: 15px;
+  right: 15px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 20px;
+  box-shadow: 1px 1px 2px #000000a9;
+  z-index: 100;
+}
+  
+
+  .fab-icon {
+  margin-top: 5px;
+  }
+
+
+  
