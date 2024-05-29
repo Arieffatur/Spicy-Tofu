@@ -19,6 +19,7 @@
   --color-secondary: #F6A108;
   --color-tertiary: #ffffff;
   --color-quaternary: #37373f;
+  --color-quinary: #888888;
 }
 
 
@@ -789,9 +790,22 @@ section {
 }
 
 .menu .tab-content .menu-item {
-  -moz-text-align-last: center;
-  text-align-last: center;
-}
+  border-style:dotted;
+  border-width: 3px;
+  border-radius: 25px;
+  border-color: red;
+  position:relative;
+  background-color: #f1f0fe;
+  text-align: center;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  padding: 50px 30px;
+  transition: all ease-in-out 0.4s;
+  height: 100%;
+ 
+  }
 
 .menu .tab-content .menu-item .menu-img {
   padding: 0 60px;
@@ -818,9 +832,6 @@ section {
   font-weight: 700;
   color: var(--color-primary);
 }
-
-
-
 
 
 /*--------------------------------------------------------------
@@ -1378,7 +1389,7 @@ section {
 }
 
 #footer .credits a {
-  color: #ff0000;
+  color: #005eff;
   transition: 0.3s;
 }
 
